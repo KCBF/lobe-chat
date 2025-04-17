@@ -1,5 +1,5 @@
 [build]
-command = "export NODE_OPTIONS=--max_old_space_size=4096 && rm -rf .next node_modules/.cache && pnpm run build"
+command = "export NODE_OPTIONS=--max_old_space_size=8192 && rm -rf .next node_modules/.cache && pnpm run build"
 publish = "/opt/build/repo/.next"
 
 [template.environment]
